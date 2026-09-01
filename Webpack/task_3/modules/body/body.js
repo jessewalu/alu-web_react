@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import { debounce } from 'lodash';
+import _ from 'lodash';
 import './body.css';
 
 console.log('Init body');
@@ -16,5 +16,5 @@ $(document).ready(() => {
     $('#count').text(`${count} clicks on the button`);
   };
 
-  $('#btn').click(debounce(updateCounter, 300));
+  $('#btn').click(_.debounce(updateCounter, 500));
 });
