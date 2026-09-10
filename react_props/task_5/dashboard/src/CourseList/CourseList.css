@@ -1,0 +1,22 @@
+#CourseList {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Georgia, 'Times New Roman', serif;
+  margin-top: 20px;
+}
+
+#CourseList th,
+#CourseList td {
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  text-align: left;
+}
+
+#CourseList thead th {
+  background-color: #e0294b;
+  color: white;
+}
+
+#CourseList tbody tr:nth-child(even) {
+  background-color: #f7f7f7;
+}

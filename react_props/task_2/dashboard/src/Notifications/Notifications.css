@@ -1,0 +1,47 @@
+.Notifications {
+  border: 2px dashed #e0294b;
+  padding: 15px 20px;
+  margin: 20px 40px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', serif;
+  position: relative;
+}
+
+.Notifications button {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.Notifications button img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.Notifications p {
+  font-size: 1.3rem;
+  margin: 0 0 10px;
+}
+
+.Notifications ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.Notifications li {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+li[data-priority="default"] {
+  color: #1a1a8c;
+}
+
+li[data-priority="urgent"] {
+  color: #e02020;
+}

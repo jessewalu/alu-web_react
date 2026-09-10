@@ -1,0 +1,64 @@
+.menuItem {
+  text-align: right;
+  margin: 10px 40px 0;
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.menuItem p {
+  display: inline-block;
+  margin: 0;
+  padding: 8px 14px;
+  border: 1px solid #e0294b;
+  border-radius: 4px;
+  color: #e0294b;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.Notifications {
+  border: 2px dashed #e0294b;
+  padding: 15px 20px;
+  margin: 10px 40px 20px;
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', serif;
+  position: relative;
+}
+
+.Notifications button {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.Notifications button img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.Notifications p {
+  font-size: 1.3rem;
+  margin: 0 0 10px;
+}
+
+.Notifications ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.Notifications li {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+li[data-notification-type="default"] {
+  color: #1a1a8c;
+}
+
+li[data-notification-type="urgent"] {
+  color: #e02020;
+}

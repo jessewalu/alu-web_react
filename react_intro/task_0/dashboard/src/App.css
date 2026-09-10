@@ -1,0 +1,46 @@
+.App {
+  text-align: left;
+  font-family: Georgia, 'Times New Roman', serif;
+  padding: 20px 40px;
+}
+
+.App-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px 0;
+}
+
+.App-logo {
+  height: 180px;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  color: #e0294b;
+  font-weight: bold;
+}
+
+.App-body {
+  padding: 20px 0 60px;
+  min-height: 200px;
+}
+
+.App-body p {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.App-footer {
+  border-top: 3px solid #e0294b;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.App-footer p {
+  margin: 0;
+  font-style: italic;
+  font-size: 1rem;
+  color: #222;
+}

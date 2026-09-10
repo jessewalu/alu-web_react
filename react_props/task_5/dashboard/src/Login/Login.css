@@ -1,0 +1,29 @@
+.App-body p {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.App-body-form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.App-body-form label {
+  font-size: 1.1rem;
+  color: #222;
+}
+
+.App-body-form input {
+  padding: 6px 8px;
+  border: 1px solid #999;
+}
+
+.App-body-form button {
+  padding: 6px 18px;
+  border: 1px solid #999;
+  background-color: #f5f5f5;
+  cursor: pointer;
+  font-family: inherit;
+}
