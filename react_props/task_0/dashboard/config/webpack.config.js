@@ -15,7 +15,9 @@ module.exports = {
     },
     hot: true,
     open: false,
+    host: '0.0.0.0',
     port: 8564,
+    allowedHosts: 'all',
   },
   module: {
     rules: [
