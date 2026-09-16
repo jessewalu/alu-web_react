@@ -1,0 +1,23 @@
+.menuItem {
+  text-align: right;
+  padding: 8px 20px;
+  cursor: pointer;
+  color: #153354;
+  font-weight: bold;
+}
+
+.Notifications ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Notifications li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.Notifications li[data-notification-type="urgent"] {
+  color: #e01d47;
+}
