@@ -1,0 +1,13 @@
+.bodySection {
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.bodySection h2 {
+  color: #153354;
+  margin-bottom: 10px;
+}
+
+.bodySectionWithMargin {
+  margin-bottom: 40px;
+}
