@@ -36,7 +36,9 @@
     "style-loader": "^3.3.4",
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^5.0.4"
+    "webpack-dev-server": "^5.0.4",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0"
   },
   "jest": {
     "testEnvironment": "jsdom",

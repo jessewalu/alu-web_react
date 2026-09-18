@@ -64,7 +64,7 @@ class App extends React.Component {
     this.setState({ displayDrawer: false });
   }
 
-  logIn(email, password) {
+  logIn() {
     this.setState({ isLoggedIn: true });
   }
 

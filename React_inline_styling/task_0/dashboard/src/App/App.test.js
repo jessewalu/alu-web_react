@@ -3,7 +3,6 @@ import { shallow, mount } from 'enzyme';
 import App from './App';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import Login from '../Login/Login';
 import Notifications from '../Notifications/Notifications';
 import BodySection from '../BodySection/BodySection';
 import BodySectionWithMarginBottom from '../BodySection/BodySectionWithMarginBottom';
