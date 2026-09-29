@@ -1,0 +1,48 @@
+{
+  "name": "dashboard",
+  "version": "1.0.0",
+  "description": "School dashboard - React, Redux action creators and Normalizr",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack serve --config config/webpack.config.js --mode development",
+    "build": "webpack --config config/webpack.config.js --mode production",
+    "test": "jest",
+    "lint": "eslint src"
+  },
+  "author": "Walusansa Jesse Kisaale",
+  "license": "ISC",
+  "dependencies": {
+    "aphrodite": "^2.4.0",
+    "prop-types": "^15.8.1",
+    "react": "16.14.0",
+    "react-dom": "16.14.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/preset-react": "^7.24.0",
+    "babel-jest": "^26.6.3",
+    "babel-loader": "^8.3.0",
+    "cheerio": "1.0.0-rc.12",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.8",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.0",
+    "jest": "^26.6.3",
+    "webpack": "^5.90.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>/config/setupTests.js"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ],
+    "moduleNameMapper": {
+      "\\.(png|jpe?g|gif|svg)$": "<rootDir>/config/fileMock.js"
+    }
+  }
+}
